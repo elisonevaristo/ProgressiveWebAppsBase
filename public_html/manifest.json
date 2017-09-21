@@ -1,5 +1,12 @@
 {
-    "name": "App",
+    "name": "Minha loja",
+    "short_name": "Loja",
+    "lang": "pt-BR",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#FFFFFF",
+    "background_color": "#FFFFFF",
+    
     "icons": [
         {
             "src": "icons\/android-icon-36x36.png",
