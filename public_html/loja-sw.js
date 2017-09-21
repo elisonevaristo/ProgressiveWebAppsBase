@@ -11,12 +11,13 @@ importScripts('js/libs/sw-toolbox/sw-toolbox.js');
 
 toolbox.options.debug = true;
 
-tool.precache([
+
+toolbox.precache([
     'index.html',
     'js/libs/jquery/jquery.js',
     'produtos.json',
-    'view/principal.html',
-    'view/produto.html'
+    'views/principal.html',
+    'views/produto.html'
 ]);
 
 toolbox.router.get('index.html', toolbox.cacheFirst);
